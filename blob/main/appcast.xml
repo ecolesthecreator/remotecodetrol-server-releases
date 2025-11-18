@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>RemoteCodetrol Server</title>
+        <link>https://remotecodetrol.ai</link>
+        <description>Updates for RemoteCodetrol Server</description>
+        <language>en</language>
+        <item>
+            <title>Version 1.0.5</title>
+            <description>What's new in this version</description>
+            <pubDate>Mon, 18 Nov 2024 12:00:00 +0000</pubDate>
+            <enclosure
+                url="https://github.com/ecolesthecreator/remotecodetrol-server-releases/releases/download/v1.0.5/RemoteCodetrolServer-v1.0.5.zip"
+                sparkle:edSignature="PASTE_SIGNATURE_HERE"
+                length="PASTE_LENGTH_HERE"
+                type="application/octet-stream"
+            />
+        </item>
+    </channel>
+</rss>
