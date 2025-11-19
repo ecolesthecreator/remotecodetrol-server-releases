@@ -9,23 +9,28 @@
         <item>
             <title>Version 1.0</title>
             <description><![CDATA[
-                <h2>First Beta Release</h2>
+                <h2>First Stable Release</h2>
                 <ul>
                     <li>WebSocket connectivity with iOS app</li>
-                    <li>SSL certificate management with mkcert</li>
+                    <li>SSL certificate management with bundled mkcert</li>
                     <li>Auto-update support via Sparkle</li>
                     <li>Menu bar interface</li>
                     <li>iOS device pairing</li>
                 </ul>
+                <h3>Bug Fixes</h3>
+                <ul>
+                    <li>Fixed Sparkle updater initialization</li>
+                    <li>Bundled mkcert to work without Homebrew</li>
+                </ul>
             ]]></description>
-            <pubDate>Tue, 19 Nov 2024 01:28:00 +0000</pubDate>
+            <pubDate>Tue, 19 Nov 2024 02:35:00 +0000</pubDate>
             <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
             <enclosure
                 url="https://github.com/ecolesthecreator/remotecodetrol-server-releases/releases/download/v1.0/Remote.Codetrol.Server-v1.0.zip"
-                sparkle:edSignature="yJP8KmOMts4S7mzJxce7QbjKTEAr8VcCDgtdUlCd/FOyvPbVOrPxM95U535r972mRnfi9yoQphF8+vOwA9+XBg=="
-                length="217402972"
+                sparkle:edSignature="S1DKvAhWirDAuR4z8ECx1C7INgn6Ux8+5mPDg4Wh/oJz9ktKykxdkbiUKpOxC5Y/seg2twNqSyImW1YASwvsCw=="
+                length="219523158"
                 type="application/octet-stream"
             />
         </item>
