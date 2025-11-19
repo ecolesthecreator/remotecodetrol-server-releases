@@ -5,7 +5,31 @@
         <description>Update feed for Remote Codetrol Server</description>
         <language>en</language>
 
-        <!-- Version 1.0 - Add new versions above this -->
+        <!-- Version 1.0.1 - Add new versions above this -->
+        <item>
+            <title>Version 1.0.1</title>
+            <description><![CDATA[
+                <h2>Bug Fix Release</h2>
+                <h3>Fixed</h3>
+                <ul>
+                    <li>Fixed notarization stapling issue that caused macOS malware warning on first launch</li>
+                    <li>App now includes properly stapled notarization ticket for offline verification</li>
+                </ul>
+                <p><strong>Note:</strong> This release contains the same features as v1.0, with only the notarization stapling fixed.</p>
+            ]]></description>
+            <pubDate>Tue, 19 Nov 2025 03:50:00 +0000</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/ecolesthecreator/remotecodetrol-server-releases/releases/download/v1.0.1/Remote.Codetrol.Server-v1.0.1.zip"
+                sparkle:edSignature="un6k/XBcj7pLf/0lNgV2tnJ3Z5sT99sBkeXS5euwlLq7+xudO8R3BwBgtgVqm1km35W9/kFhvcoWydVVtxcqAg=="
+                length="219288362"
+                type="application/octet-stream"
+            />
+        </item>
+
+        <!-- Version 1.0 -->
         <item>
             <title>Version 1.0</title>
             <description><![CDATA[
