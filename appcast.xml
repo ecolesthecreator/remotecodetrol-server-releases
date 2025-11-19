@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+    <channel>
+        <title>Remote Codetrol Server Updates</title>
+        <description>Update feed for Remote Codetrol Server</description>
+        <language>en</language>
+
+        <!-- Version 1.0 - Add new versions above this -->
+        <item>
+            <title>Version 1.0</title>
+            <description><![CDATA[
+                <h2>First Beta Release</h2>
+                <ul>
+                    <li>WebSocket connectivity with iOS app</li>
+                    <li>SSL certificate management with mkcert</li>
+                    <li>Auto-update support via Sparkle</li>
+                    <li>Menu bar interface</li>
+                    <li>iOS device pairing</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 19 Nov 2024 01:28:00 +0000</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/ecolesthecreator/remotecodetrol-server-releases/releases/download/v1.0/Remote.Codetrol.Server-v1.0.zip"
+                sparkle:edSignature="yJP8KmOMts4S7mzJxce7QbjKTEAr8VcCDgtdUlCd/FOyvPbVOrPxM95U535r972mRnfi9yoQphF8+vOwA9+XBg=="
+                length="217402972"
+                type="application/octet-stream"
+            />
+        </item>
+    </channel>
+</rss>
